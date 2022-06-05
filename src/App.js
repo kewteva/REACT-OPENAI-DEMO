@@ -37,7 +37,7 @@ const App = () => {
     <Container maxWidth="xs">
       <Stack spacing={2}>
         <TextField
-          label="Prompt"
+          label="What do you want to study?"
           variant="outlined"
           value={req}
           onChange={(e) => changeReq(e.target.value)}
